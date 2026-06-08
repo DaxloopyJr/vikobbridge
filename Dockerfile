@@ -33,12 +33,20 @@ RUN composer install --no-dev --optimize-autoloader --no-interaction --no-script
 
 RUN composer run-script post-autoload-dump --no-interaction 2>/dev/null || true
 
-RUN chown -R www-data:www-data /var/www/html \
+	
+RUN mkdir -p /var/www/html/storage/logs \
+    /var/www/html/storage/framework/cache \
+    /var/www/html/storage/framework/sessions \
+    /var/www/html/storage/framework/testing \
+    /var/www/html/storage/framework/views \
+    /var/www/html/storage/app/public \
+    /var/www/html/bootstrap/cache \
+    && chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/storage \
     && chmod -R 755 /var/www/html/bootstrap/cache \
-    && chmod -R 777 /var/www/html/storage/logs \
-    && chmod -R 777 /var/www/html/storage/framework \
-    && chmod -R 777 /var/www/html/storage/app/public
+    && chmod -R 775 /var/www/html/storage/logs \
+    && chmod -R 775 /var/www/html/storage/framework \
+    && chmod -R 775 /var/www/html/storage/app/public
 
 RUN echo '<VirtualHost *:80>\n\
     DocumentRoot /var/www/html/public\n\
