@@ -107,7 +107,7 @@
                         </div>
                         <div class="ms-3">
                             <h6 class="fw-bold mb-1">Phone</h6>
-                            <p class="text-muted mb-0">+255 700 123 456<br>+255 713 789 012</p>
+                            <p class="text-muted mb-0">+255 757 721 815<br>+255 750 460 470</p>
                         </div>
                     </div>
 
@@ -155,7 +155,7 @@
             <div class="col-lg-4 col-md-4 mb-4">
                 <h6 class="text-white mb-3">Contact</h6>
                 <p class="text-white-50"><i class="bi bi-envelope me-2"></i>support@vicobridge.com</p>
-                <p class="text-white-50"><i class="bi bi-phone me-2"></i>+255 700 123 456</p>
+                <p class="text-white-50"><i class="bi bi-phone me-2"></i>+255 757 721 815</p>
             </div>
         </div>
         <hr class="border-secondary">

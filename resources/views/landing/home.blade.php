@@ -421,7 +421,7 @@
             <div class="col-lg-4 col-md-4 mb-4">
                 <h6 class="text-white mb-3">Contact Us</h6>
                 <p><i class="bi bi-envelope me-2"></i>support@vicobridge.com</p>
-                <p><i class="bi bi-phone me-2"></i>+255 700 123 456</p>
+                <p><i class="bi bi-phone me-2"></i>+255 757 721 815</p>
                 <p><i class="bi bi-geo-alt me-2"></i>Dar es Salaam, Tanzania</p>
             </div>
         </div>
