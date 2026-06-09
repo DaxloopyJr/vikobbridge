@@ -100,12 +100,7 @@
 
                                 <hr class="my-4">
 
-                                <div class="text-center">
-                                    <small class="text-muted">Default Super Admin Login:</small>
-                                    <div class="mt-1">
-                                        <code class="bg-light px-2 py-1 rounded">admin@vicobridge.com / admin123</code>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
